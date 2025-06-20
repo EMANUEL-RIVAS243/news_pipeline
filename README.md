@@ -1,16 +1,18 @@
-# Description
+Hi! 👋 This small project is intended to learn how to create a simple data pipeline in Python using the `schedule` library.
 
-Hi! This small project is intended to learn about Schedule library, and how to create a small pipeline in Python.
-In short, the pipeline.py executes its code every 5 minutes with a scheduler asocciated with the function job, creating a new csv; this function job automates tasks such as:
+### 🧠 What it does:
 
-1. Extraing data
-2. Transforming or cleaning data
-3. Load or export data in a csv (every 5 minutes)
+Every 5 minutes, `pipeline.py` executes a job that:
+- 📥 Extracts data from an external API, NewsAPI
+- 🧹 Transforms and cleans the data using pandas
+- 💾 Loads/exports the data into a `.csv` file
 
-If you want to use this small script
-1. Clone the code
-2. Run from the terminal and execute: python pipeline.py
-3. Let the terminal executing in a second plane
+### 🚀 How to use it:
 
-Thanks a lot for your attention c:
-You can use this repo as a guide if you want to!
+1. Clone this repo
+2. Run from the terminal:
+   ```bash
+   python pipeline.py
+
+You can use this repo as a guide if you want to learn in a easier way about automatization c:
+Feel free to use it!
